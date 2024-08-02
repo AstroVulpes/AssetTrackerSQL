@@ -1,2 +1,2 @@
 # AssetTrackerSQL
-A database of products stored in different offices with CRUD support.
+A database of products stored in different offices with CRUD support. Each office has an ID, a name, and a currency. The table converts the price to each office's local currency by consulting a live XML document. There are 4 options to choose from after the database has been loaded (sorted in alphabetical order of offices and then by price): 1. Create a new product (type, brand, model, purchase date, price, and office). 2. Edit a product. 3. Remove a product. 4. Quit the application.
